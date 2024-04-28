@@ -3,11 +3,12 @@
 </template>
 
 <script setup>
-import { OfferPage, SecondOfferPage } from "@/components/offer";
+import { DefaultOfferPage, SecondOfferPage } from "@/components/pages";
+import { PageVariants } from "@/enums";
 
 const componentMapping = {
-  'var1': OfferPage,
-  'var2': SecondOfferPage
+  [PageVariants.DEFAULT]: DefaultOfferPage,
+  [PageVariants.SECOND]: SecondOfferPage
 };
 
 const route = useRoute();
@@ -17,13 +18,8 @@ const pageVariant = ref('');
 const pageComponent = computed(() => componentMapping[pageVariant.value]);
 
 onMounted(() => {
-  pageVariant.value = abtest.value || 'var1';
-
   watch(() => route.query.abtest, (query) => {
-    if (query === 'var1' || query === 'var2') {
-      pageVariant.value = query;
-    }
-
+    pageVariant.value = query in componentMapping ? query : abtest.value || PageVariants.DEFAULT;
   }, { immediate: true })
 });
 </script>

@@ -3,8 +3,5 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   components: false,
   css: ['~/public/styles/main.scss'],
-  modules: ["@nuxt/fonts", 'nuxt-icon', "@nuxtjs/tailwindcss", "@nuxt/image"],
-  alias: {
-    '~': '@/'
-  },
+  modules: ["@nuxt/fonts", 'nuxt-icon', "@nuxtjs/tailwindcss", "@nuxt/image"]
 })

@@ -10,8 +10,18 @@
 
     <section class="main-section">
       <div class="learning-journey learning-journey--desktop">
-        <h1 class="learning-journey__title"><span style="color: #4EAAFF">START</span> YOUR LEARNING JOURNEY <span style="color: #4EAAFF">NOW</span></h1>
-        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #4EAAFF">Smart</span>Learn</span> plan to rock self-learning</p>
+        <h1 class="learning-journey__title">
+          <span class="text-color-highlighted-secondary">START</span>
+          YOUR LEARNING JOURNEY
+          <span class="text-color-highlighted-secondary">NOW</span>
+        </h1>
+
+        <p class="learning-journey__description">Get a
+          <span class="font-extrabold">
+            <span class="text-color-highlighted-secondary">Smart</span>Learn
+          </span> plan to rock self-learning
+        </p>
+
         <Button skin="primary" @click="showPaymentPopup = true">
           Get my plan
         </Button>
@@ -39,8 +49,18 @@
 
       <Card class="offer-card">
         <div class="learning-journey">
-          <h1 class="learning-journey__title"><span style="color: #4EAAFF">START</span> YOUR LEARNING JOURNEY <span style="color: #4EAAFF">NOW</span></h1>
-          <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #4EAAFF">Smart</span>Learn</span> plan to rock self-learning.</p>
+          <h1 class="learning-journey__title">
+            <span class="text-color-highlighted-secondary">START</span>
+            YOUR LEARNING JOURNEY
+            <span class="text-color-highlighted-secondary">NOW</span>
+          </h1>
+
+          <p class="learning-journey__description">Get a
+            <span class="font-extrabold">
+              <span class="text-color-highlighted-secondary">Smart</span>Learn
+            </span> plan to rock self-learning.
+          </p>
+
           <Button skin="primary" @click="showPaymentPopup = true">
             Get my plan
           </Button>
@@ -61,10 +81,13 @@
 import { Button, Card } from '@/components/shared';
 import { OfferCard, OfferCardDetails } from '@/components/offer/card';
 import { PaymentPopup } from '@/components/offer/payment';
-import Header from './Header.vue';
+import { Header } from '@/components/common';
+
+useSeoMeta({
+  title: 'Second',
+});
 
 useHead({
-  title: 'Offer Page | Second',
   link: [{ rel: 'stylesheet', href: '/styles/variables/second-offer-page.css' }]
 })
 

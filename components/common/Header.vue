@@ -4,7 +4,7 @@
   </header>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 .header {
   width: 100%;
   height: 56px;
@@ -12,7 +12,7 @@
   justify-content: flex-start;
   align-items: center;
 
-  & img {
+  & :deep(img) {
     width: 180px;
     height: 40px;
     margin-left: 135px;
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 576px) {
   .header {
-    & img {
+    & :deep(img) {
       margin-left: 0;
     }
   }

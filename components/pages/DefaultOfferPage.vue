@@ -11,7 +11,13 @@
     <section class="main-section">
       <div class="learning-journey">
         <h1 class="learning-journey__title">Start your learning journey now.</h1>
-        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #FF8D24">Planet</span>Learn</span> plan to rock self-learning</p>
+        <p class="learning-journey__description">Get a
+          <span class="font-extrabold">
+            <span class="text-color-highlighted-primary">Planet
+            </span>Learn
+          </span> plan to rock self-learning
+        </p>
+
         <Button skin="primary" @click="showPaymentPopup = true">
           Get my plan
         </Button>
@@ -42,10 +48,13 @@
 import { Button } from '@/components/shared';
 import { OfferCard, OfferCardDetails } from '@/components/offer/card';
 import { PaymentPopup } from '@/components/offer/payment';
-import Header from './Header.vue';
+import { Header } from '@/components/common';
+
+useSeoMeta({
+  title: 'Default',
+});
 
 useHead({
-  title: 'Offer Page | Default',
   link: [{ rel: 'stylesheet', href: '/styles/variables/offer-page.css' }]
 })
 
