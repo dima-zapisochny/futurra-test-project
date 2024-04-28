@@ -10,6 +10,7 @@
   border-radius: 24px;
   background-color: rgba(var(--background-color-card));
   border: 1px solid rgba(var(--border-color-card));
+  backdrop-filter: blur(5px);
   width: 474px;
   padding: 24px;
   margin: 0 10px;
