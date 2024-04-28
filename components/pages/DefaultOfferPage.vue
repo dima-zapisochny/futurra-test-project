@@ -10,7 +10,7 @@
 
     <section class="main-section">
       <div class="learning-journey">
-        <h1 class="learning-journey__title">Start your learning journey now.</h1>
+        <h1 class="learning-journey__title">Start your learning journey now</h1>
         <p class="learning-journey__description">Get a
           <span class="font-extrabold">
             <span class="text-color-highlighted-primary">Planet
