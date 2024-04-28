@@ -35,9 +35,6 @@
           src="/images/rocket.png"
       />
 
-<!--      <img class="img-decoration img-decoration&#45;&#45;ball" alt="Ball decoration" src="/images/ball.png">-->
-<!--      <img class="img-decoration img-decoration&#45;&#45;rocket" alt="Rocket decoration"  src="/images/rocket.png">-->
-
       <OfferCard />
 
       <Card class="offer-card">
