@@ -1,20 +1,42 @@
 <template>
   <div class="offer-page">
     <Header>
-      <img src="/images/box-logo.png" alt="Logo" />
+      <NuxtImg
+          format="webp"
+          alt="Logo"
+          src="/images/box-logo.png"
+      />
     </Header>
 
     <section class="main-section">
       <div class="learning-journey learning-journey--desktop">
         <h1 class="learning-journey__title"><span style="color: #4EAAFF">START</span> YOUR LEARNING JOURNEY <span style="color: #4EAAFF">NOW</span></h1>
-        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #4EAAFF">Smart</span>Learn</span> plan to rock self-learning.</p>
+        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #4EAAFF">Smart</span>Learn</span> plan to rock self-learning</p>
         <Button skin="primary" @click="showPaymentPopup = true">
           Get my plan
         </Button>
       </div>
 
-      <img class="img-decoration img-decoration--ball" alt="Ball decoration" src="/images/ball.png">
-      <img class="img-decoration img-decoration--rocket" alt="Rocket decoration"  src="/images/rocket.png">
+      <NuxtImg
+          class="img-decoration img-decoration--ball"
+          width="86"
+          height="86"
+          format="webp"
+          alt="Ball decoration"
+          src="/images/ball.png"
+      />
+
+      <NuxtImg
+          class="img-decoration img-decoration--rocket"
+          width="320"
+          height="320"
+          format="webp"
+          alt="Rocket decoration"
+          src="/images/rocket.png"
+      />
+
+<!--      <img class="img-decoration img-decoration&#45;&#45;ball" alt="Ball decoration" src="/images/ball.png">-->
+<!--      <img class="img-decoration img-decoration&#45;&#45;rocket" alt="Rocket decoration"  src="/images/rocket.png">-->
 
       <OfferCard />
 
@@ -92,8 +114,6 @@ const showPaymentPopup = ref(false);
   position: absolute;
 
   &--ball {
-    width: 86px;
-    height: 86px;
     right: 440px;
     top: -40px;
   }

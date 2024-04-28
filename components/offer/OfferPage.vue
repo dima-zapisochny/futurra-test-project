@@ -1,19 +1,30 @@
 <template>
   <div class="offer-page">
     <Header>
-      <img src="/images/planet-logo.png" alt="Logo" />
+      <NuxtImg
+          format="webp"
+          alt="Logo"
+          src="/images/planet-logo.png"
+      />
     </Header>
 
     <section class="main-section">
       <div class="learning-journey">
         <h1 class="learning-journey__title">Start your learning journey now.</h1>
-        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #FF8D24">Planet</span>Learn</span> plan to rock self-learning.</p>
+        <p class="learning-journey__description">Get a <span style="font-weight: 800"><span style="color: #FF8D24">Planet</span>Learn</span> plan to rock self-learning</p>
         <Button skin="primary" @click="showPaymentPopup = true">
           Get my plan
         </Button>
       </div>
 
-      <img class="img-decoration img-decoration--asteroid" alt="Asteroid decoration" src="/images/asteroid.png">
+      <NuxtImg
+          class="img-decoration img-decoration--asteroid"
+          width="200"
+          height="80"
+          format="webp"
+          alt="Asteroid decoration"
+          src="/images/asteroid.png"
+      />
 
       <OfferCard />
 
