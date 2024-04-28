@@ -14,9 +14,9 @@
 </template>
 
 <script setup lang="ts">
-import { Card, Timer } from "@/components/shared";
-import OfferCardPrice from "./OfferCardPrice.vue";
-import OfferCardDetails from "./OfferCardDetails.vue";
+import { Card, Timer } from '@/components/shared';
+import OfferCardPrice from './OfferCardPrice.vue';
+import OfferCardDetails from './OfferCardDetails.vue';
 
 const isTimeOverCookie = useCookie('isTimeOver');
 </script>
