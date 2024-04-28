@@ -73,7 +73,7 @@ const showPaymentPopup = ref(false);
 
 <style scoped lang="scss">
 .offer-page {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-image: url("/images/second-planets.png");
