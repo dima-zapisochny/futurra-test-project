@@ -1,0 +1,43 @@
+:root {
+  /* Text */
+  --text-color-primary: 255, 255, 255; /* Black text */
+  --text-color-secondary: 255, 255, 255; /* Secondary text */
+  --text-color-button: 73, 94, 238; /* Button text */
+  --text-color-submit-button: 255, 255, 255; /* Submit button text */
+  --text-color-text-highlight: 102, 237, 255; /* Highlight color */
+  --text-color-item-highlight: 102, 237, 255; /* Highlight color */
+  --text-color-error: 255, 0, 0; /* Error color */
+  --text-color-label: 102, 237, 255; /* Label color */
+  --text-color-grey: 108, 114, 127; /* Popup text color */
+  --text-color-filed: 255, 255, 255; /* Field text color */
+  --text-color-divider: 255, 255, 255; /* Divider text color */
+
+  /* Button */
+  --button-color-primary: 255, 255, 255; /* Black button color */
+  --button-color-secondary: 108, 137, 255; /* Secondary button color */
+  --button-color-disabled: 97, 115, 152; /* Disabled button color */
+
+  /* Background */
+  --background-color-card: 0, 0, 0, 0.4; /* Black background */
+  --background-color-timer: 78, 170, 255; /* Timer background */
+  --background-color-modal: 77, 94, 130; /* Modal background */
+  --background-color-field: 97, 115, 152; /* Field background */
+  --background-color-label: 0, 0, 0, 0.2; /* Label background */
+  --background-color-secondary: 0, 0, 0; /* Black background */
+  --background-color-active: 108, 137, 255; /* Active background */
+  --background-color-disabled: 97, 115, 152; /* Button disabled background */
+
+  /* Box Shadow */
+  --box-shadow-color: 0, 0, 0; /* Black box-shadow color */
+
+  /* Icon */
+  --icon-color: 102, 237, 255; /* Icon color */
+
+  /* Border */
+  --border-color: 205, 205, 205; /* Border color */
+  --border-color-card: 0, 0, 0, 0.4; /* Card border color */
+  --border-color-label: 0, 0, 0, 0.2; /* Label border color */
+  --border-color-success: 120, 153, 255; /* Success border color */
+  --border-color-active: 120, 153, 255; /* Active border color */
+  --border-color-error: 255, 0, 0; /* Error border color */
+}

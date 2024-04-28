@@ -1,0 +1,44 @@
+:root {
+  /* Text */
+  --text-color-primary: 0, 0, 0; /* Black text */
+  --text-color-secondary: 255, 255, 255; /* Secondary text */
+  --text-color-button: 255, 255, 255; /* White button text */
+  --text-color-submit-button: 255, 255, 255; /* Submit button text */
+  --text-color-text-highlight: 255, 141, 36; /* Highlight color */
+  --text-color-item-highlight: 0, 0, 0; /* Highlight color */
+  --text-color-error: 255, 0, 0; /* Error color */
+  --text-color-label: 1, 193, 32; /* Label color */
+  --text-color-grey: 108, 114, 127; /* Grey text color */
+  --text-color-filed: 108, 114, 127; /* Field text color */
+  --text-color-divider: 108, 114, 127; /* Divider text color */
+
+  /* Button */
+  --button-color-primary: 0, 0, 0; /* Black button color */
+  --button-color-secondary: 0, 202, 20; /* Secondary button color */
+  --button-color-disabled: 210, 210, 210; /* Disabled button color */
+
+  /* Background */
+  --background-color: 255, 255, 255, 1; /* White background */
+  --background-color-card: 255, 255, 255, 1; /* Card background */
+  --background-color-timer: 0, 202, 20; /* Timer background */
+  --background-color-modal: 255, 255, 255; /* Modal background */
+  --background-color-field: 255, 255, 255; /* Field background */
+  --background-color-label: 255, 255, 255, 1; /* Label background */
+  --background-color-secondary: 0, 0, 0; /* Black background */
+  --background-color-active: 0, 202, 20; /* Active background */
+  --background-color-disabled: 210, 210, 210; /* Button disabled background */
+
+  /* Box Shadow */
+  --box-shadow-color: 0, 0, 0; /* Black box-shadow color */
+
+  /* Icon */
+  --icon-color: 255, 141, 36; /* Icon color */
+
+  /* Border */
+  --border-color: 205, 205, 205; /* Border color */
+  --border-color-card: 205, 205, 205; /* Card border color */
+  --border-color-label: 205, 205, 205; /* Label border color */
+  --border-color-success: 0, 202, 20; /* Success border color */
+  --border-color-active: 0, 202, 20; /* Active border color */
+  --border-color-error: 255, 0, 0; /* Error border color */
+}
